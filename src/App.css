@@ -1,0 +1,38 @@
+/*@font-face {*/
+/*  font-family: Roboto;*/
+/*  src: url(assets/font/Roboto-Black.ttf);*/
+/*  src: url(assets/font/Roboto-BlackItalic.ttf);*/
+/*  src: url(assets/font/Roboto-Bold.ttf);*/
+/*  src: url(assets/font/Roboto-BoldItalic.ttf);*/
+/*  src: url(assets/font/Roboto-Italic.ttf);*/
+/*  src: url(assets/font/Roboto-Light.ttf);*/
+/*  src: url(assets/font/Roboto-LightItalic.ttf);*/
+/*  src: url(assets/font/Roboto-Medium.ttf);*/
+/*  src: url(assets/font/Roboto-MediumItalic.ttf);*/
+/*  src: url(assets/font/Roboto-Regular.ttf);*/
+/*  src: url(assets/font/Roboto-Thin.ttf);*/
+/*  src: url(assets/font/Roboto-ThinItalic.ttf);*/
+/*}*/
+
+body * {
+  font-family: Roboto;
+}
+
+.pointer-event:hover {
+  cursor: pointer;
+}
+
+.bg-dark {
+  background-color: #1e2429 !important;
+  width: 100%;
+}
+
+.navbar-light .navbar-brand {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  font-weight: 600 !important;
+}

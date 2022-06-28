@@ -1,0 +1,34 @@
+.coin-header {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  h4 {
+    color: #fff;
+  }
+  p {
+    color: #fff;
+    margin-top: 6px;
+  }
+  .dayli-drop {
+    background-color: #1e2429;
+    border-color: #1e2429;
+    color: #3b4851;
+    width: 55px;
+    height: 25px;
+  }
+  .dayli-time {
+    background-color: #333b41;
+    border-color: #333b41;
+    opacity: 0.5;
+  }
+}
+@media (min-width: 10px) and (max-width: 767px) {
+  .coin-header {
+    p {
+      margin-top: 26px;
+      display: inline-block;
+    }
+    h4{
+      margin-bottom: 2rem;
+    }
+  }
+}

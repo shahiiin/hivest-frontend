@@ -1,0 +1,36 @@
+.total-balance {
+    background: #1e2429;
+    height: auto;
+    width: 100%;
+    margin-top: 2rem;
+}
+.total-balance {
+    p {
+        color: #ffffff;
+        text-align: center;
+        margin-top: 5px;
+        font-size: 23px;
+        font-weight: 900;
+    }
+    span {
+        color: #ffffff;
+        margin-left: 22px;
+        font-weight: 900;
+    }
+    h6 {
+        color: #ffffff;
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 25px;
+        font-weight: 900;
+    }
+    .total-balance-dropdown {
+        color: #ffffff;
+        border: none;
+        background: #1e2429;
+        border-color: #1e2429;
+    }
+}
+@media (min-width: 10px) and (max-width: 767px){
+    
+}

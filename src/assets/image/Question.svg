@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Question" transform="translate(-0.054)">
+    <rect id="Rectangle_55" data-name="Rectangle 55" width="16" height="16" transform="translate(0.054)" fill="none"/>
+    <path id="question-2" data-name="question" d="M6,0a6,6,0,1,0,6,6A6.007,6.007,0,0,0,6,0ZM6,9.5A.5.5,0,1,1,6.5,9,.5.5,0,0,1,6,9.5Zm.791-3.179a.5.5,0,0,0-.292.455V7a.5.5,0,0,1-1,0V6.776a1.506,1.506,0,0,1,.872-1.363A1.634,1.634,0,0,0,7.25,4.25a1.25,1.25,0,1,0-2.5,0,.5.5,0,1,1-1,0,2.25,2.25,0,1,1,4.5,0A2.605,2.605,0,0,1,6.791,6.321Zm0,0" transform="translate(2.054 2)" fill="#b3b5b7"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_268" data-name="Group 268" transform="translate(-30 -258)">
+    <rect id="Rectangle_128" data-name="Rectangle 128" width="40" height="40" transform="translate(30 258)" fill="none"/>
+    <g id="wallet" transform="translate(41.097 270.134)">
+      <g id="Group_55" data-name="Group 55" transform="translate(0 0)">
+        <g id="Group_54" data-name="Group 54">
+          <path id="Path_8922" data-name="Path 8922" d="M13.036,49.111h4.8v-2.23a2.576,2.576,0,0,0-2.573-2.573H2.573A2.576,2.576,0,0,0,0,46.881v9.605a2.576,2.576,0,0,0,2.573,2.573H15.265a2.576,2.576,0,0,0,2.573-2.573v-2.23h-4.8a2.573,2.573,0,1,1,0-5.146Z" transform="translate(0 -44.308)" fill="#e9e9ea"/>
+        </g>
+      </g>
+      <g id="Group_57" data-name="Group 57" transform="translate(11.492 5.832)">
+        <g id="Group_56" data-name="Group 56" transform="translate(0 0)">
+          <path id="Path_8923" data-name="Path 8923" d="M331.39,211.692a1.544,1.544,0,1,0,0,3.087h4.8v-3.087h-4.8Zm.686,2.058h-.686a.515.515,0,1,1,0-1.029h.686a.515.515,0,1,1,0,1.029Z" transform="translate(-329.846 -211.692)" fill="#edac01"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,105 @@
+.question {
+    .step {
+        background-image: url("../../assets/image/step.png");
+          background-size: cover;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        color: #ffffff;
+        text-align: center;
+        padding: 8px;
+           margin: 0px 43px 0px 0px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .active-step {
+        background-image: url("../../assets/image/activeStep.png");
+        background-size: cover;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        color: #ffffff;
+        text-align: center;
+        padding: 8px;
+           margin: 0px 43px 0px 0px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    ul {
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+      
+        align-items: center;
+        margin-bottom: 0;
+    }
+}
+
+.question h2 {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 19px;
+    margin-bottom: 3rem;
+    color: #f8c02d;
+    display: inline-block;
+    position: inherit;
+    margin-left: 8px;
+}
+
+.logo-hive {
+    height: 25px;
+    width: 31px;
+}
+.question p {
+    display: inline-block;
+    color: #ffffff;
+    position: absolute;
+    margin-left: 36px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.question span {
+    display: inline-block;
+    color: #000000;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 6px;
+    font-weight: bold;
+}
+.Polygon {
+    height: 37px;
+    width: 37px;
+}
+.polygon {
+    height: 37px;
+    width: 37px;
+    margin-left: 23px;
+}
+.question {
+    margin-top: 10rem;
+}
+@media (min-width: 10px) and (max-width: 767px) {
+    .question h2 {
+        text-align: center;
+    }
+    .question-masage {
+        text-align: center;
+    }
+    .question {
+        margin-top: 2rem;
+        .step {
+            width: 25px;
+            height: 25px;
+            padding: 0;
+            margin: 3px;
+        }
+        .active-step {
+            width: 25px;
+            height: 25px;
+            padding: 0;
+            margin: 3px;
+        }
+    }
+}

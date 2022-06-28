@@ -1,0 +1,33 @@
+.static-header {
+    margin-top: 5rem;
+    h2 {
+        color: #ffffff;
+        font-family: Roboto;
+        font-weight: 900;
+    }
+    .monthly {
+        height: 25px;
+        width: 65px;
+        border: none;
+        color:#353D43;
+
+        border-radius: 5px;
+        font-weight: 800;
+        margin: 5px;
+        background: linear-gradient(180deg, #181a1d 0%, rgba(30, 36, 41, 0) 100%);
+
+    }
+    .dayli{
+          height: 25px;
+        width: 55px;
+        border: none;
+        color: #ffffff;
+        border-radius: 5px;
+        font-weight: 800;
+        margin: 5px;
+        background-color:#2A67C2;
+    }
+}
+@media (min-width: 10px) and (max-width: 767px){
+    
+}

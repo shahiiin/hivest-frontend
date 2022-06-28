@@ -1,0 +1,33 @@
+.profile-header {
+    margin-top: 9rem;
+    input {
+       margin-top: 19px;
+    }
+    .header-title{
+        margin: auto;
+        line-height: 4rem;
+        color: #ffffff;
+        font-weight: 900;
+        font-size: 32px;
+    }
+    .upload-file-span{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        color: #ffffff;
+    }
+  
+    .playerProfilePic_home_tile {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        margin-bottom: 2rem;
+        margin-left: 12px;
+          border: 1px solid #1e2429;
+    }
+    .register_profile_image {
+        background-color: #181a1d;
+    }
+    svg{
+        color: #ffffff;
+    }
+}

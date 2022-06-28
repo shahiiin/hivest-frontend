@@ -1,0 +1,100 @@
+.profile-information{
+    background-color: #181a1d;
+    // height: auto;
+    .payment{
+      // position: relative;
+      // top: 19rem;
+      .table{
+        // margin-top: 5%;
+        width: 99%;
+        tbody{
+          border: none;
+          .bg{
+            background: #181A1D;
+            // height: auto;
+          }
+          .bg-1{
+            background: #333B41;
+            // height: auto;
+          }
+          td{
+            border: none;
+            color: #E9E9EA;
+            font-weight: 900;
+            font-size: 11px;
+            line-height: 60px;
+            padding: 2px;
+            scroll-behavior: auto;
+            .long-txt{
+              font-size: 12px;
+            }
+            line-height: auto;
+          }
+        }
+        thead {
+          tr{
+            border: none;
+            color: #E9E9EA;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 12px;
+            line-height: 14.06px;
+          }
+          th{
+            border: none;
+            background: #1E2429;
+            border-radius: 2px;
+          }
+        }
+      }
+    }
+}
+@media (min-width: 10px) and (max-width: 425px){
+  .profile-information{
+    .payment{
+      .table{
+        tbody{
+            td{
+              border: none;
+              color: #E9E9EA;
+              font-weight: 900;
+              font-size: 8px;
+              padding: 2px;
+              line-height: 20px;
+              word-break: break-all;
+            }
+        }
+        thead{
+          tr{
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 10px) and (max-width: 767px){
+  .profile-information{
+    .payment{
+      .table{
+        tbody{
+            td{
+              border: none;
+              color: #E9E9EA;
+              font-weight: 900;
+              font-size: 8px;
+              line-height: 15px;
+              padding: 2px;
+              scroll-behavior: auto;
+              word-break: break-all;
+            }
+        }
+      }
+      thead{
+        tr{
+          font-size: 8px;
+        }
+      }
+    }
+  }
+}

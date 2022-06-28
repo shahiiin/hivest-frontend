@@ -1,0 +1,92 @@
+.aside-dashboard {
+    background-color: #1e2429;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.logo-menu {
+    width: 30.4px;
+    height: 24.2px;
+}
+div.kennestin-logo {
+    position: relative;
+    right: 16px;
+}
+.aside-dashboard h5 {
+    color: #f8c02d;
+    font-size: 16px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+
+.menu-item-active {
+  
+    p {
+        font-weight: 900;
+        color: #3b4851;
+        text-decoration: none;
+        margin-right: 50px;
+    }
+}
+.menu-item-deactive {
+    p {
+        color: #ffffff;
+        font-weight: 900;
+        margin-right: 50px;
+    }
+}
+.menu-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+}
+
+.p-1 {
+    color: #ffffff !important;
+    margin-top: 2rem;
+}
+
+.aside-dashboard-content {
+    padding-top: 2rem;
+}
+
+.active-logo {
+    width: 47px;
+    height: 40px;
+    z-index: 999;
+    margin-top: 22px;
+}
+
+.Portfo-logo {
+    width: 47px;
+    height: 40px;
+}
+.aside-kennestin {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 13px;
+    width: 100%;
+    margin-bottom: 27px;
+}
+
+.aside-logo {
+    width: 205px;
+    height: 706.2px;
+}
+.image-fluid {
+    width: 30px;
+    height: 30px;
+    margin-top: 28px;
+}
+.menu a,
+.aside-kennestin a {
+    text-decoration: none;
+}
+@media (min-width: 10px) and (max-width: 767px) {
+    .aside-dashboard {
+        display: none;
+    }
+}

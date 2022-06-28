@@ -1,0 +1,9 @@
+.question-hive {
+    background-color: #181a1d;
+    height: 100vh;
+}
+@media (min-width: 10px) and (max-width: 767px) {
+    .question-hive {
+        height: auto;
+    }
+}

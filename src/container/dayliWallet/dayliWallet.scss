@@ -1,0 +1,20 @@
+.dayli-wallet {
+    background-color: #181a1d;
+    height: auto;
+    
+}
+
+.bergure {
+    display: none;
+}
+
+@media (min-width: 10px) and (max-width: 767px) {
+    .bergure {
+        display: flex;
+    }
+}
+@media (min-width: 10px) and (max-width: 425px) {
+    .bergure {
+        display: flex;
+    }
+}

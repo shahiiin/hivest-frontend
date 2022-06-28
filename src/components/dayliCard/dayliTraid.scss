@@ -1,0 +1,49 @@
+.weekly {
+    background-color: #20262b;
+    width: 210px;
+    height: 280px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    margin-left: 85px;
+    border-radius: 5px;
+    text-align: center;
+    p {
+        color: #ffffff;
+        font-weight: 700;
+        color: #ffffff;
+        font-weight: 700;
+        display: block;
+        margin-top: 16px;
+        position: absolute;
+        margin-left: 80px;
+    }
+    h1 {
+        color: #f8c02d;
+        font-weight: 900;
+        font-size: 26px;
+        margin-top: 5.5rem;
+    }
+    span {
+        color: #f8c02d;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .weekly-header {
+        background-color: #202125 !important;
+        height: 56px;
+        border-radius: 5px;
+        margin-top: -10px;
+    }
+    .dayli-tride-btn {
+        border: 1.2px solid #f8c02d;
+        background-color: #1e2429;
+        border-radius: 0px;
+        color: #f8c02d;
+        font-weight: 600;
+        margin-bottom: 15px;
+        margin-top: 55px;
+        width: 120px;
+        height: 35px;
+    }
+}

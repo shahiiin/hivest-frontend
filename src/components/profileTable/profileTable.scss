@@ -1,0 +1,66 @@
+
+.profile-table{
+  margin-bottom: 1rem;
+    div.profile-info-box{
+        background: #1e2429;
+        border-radius: 8px;
+        margin-top: 10%;
+    
+        p.personal-info-header{
+            font-size: 14px;
+            font-weight: 900;
+            line-height: 16.41px;
+            color: #FFFFFF;
+            padding-top: 2%;
+        }
+    }
+    .table {
+       
+        background: #1e2429;
+        color: #ffffff;
+        height: auto;
+        width: 99%;
+        img{
+       
+            height: 18px;
+            width: 18px;
+        }
+
+        
+        thead th {
+            vertical-align: bottom;
+            border-bottom: 1px solid #181a1d;
+            background: #1e2429;
+            border-top: none;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 14px;
+            line-height: 16.41px;
+            color:#FFFFFF,100%;
+            width: 33%;
+            text-align: center;
+        }
+        tbody td{
+            font-weight: 900;
+            font-style: normal;
+            font-size: 14px;
+            line-height: 16.41px;
+            color:#FFFFFF,100%;
+            vertical-align: bottom;
+            border-bottom: 1px solid #181a1d;
+            background: #1e2429;
+            border-top: none;
+            width: 33%;
+            text-align: center;
+        }
+    }
+}   
+@media (min-width: 10px) and (max-width: 425px){
+    .table{
+        tbody td,thead th{
+            padding:0.3rem 0;
+            text-align: center;
+        }
+    }
+}
+

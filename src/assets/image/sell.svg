@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.667" height="80" viewBox="0 0 70.667 80">
+  <defs>
+    <filter id="Polygon_86" x="0" y="0" width="70.667" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#363636" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_300" data-name="Group 300" transform="translate(12 8)">
+    <g transform="matrix(1, 0, 0, 1, -12, -8)" filter="url(#Polygon_86)">
+      <path id="Polygon_86-2" data-name="Polygon 86" d="M37.47,0a8,8,0,0,1,6.86,3.884l9.2,15.333a8,8,0,0,1,0,8.232l-9.2,15.333a8,8,0,0,1-6.86,3.884H18.53a8,8,0,0,1-6.86-3.884L2.47,27.449a8,8,0,0,1,0-8.232l9.2-15.333A8,8,0,0,1,18.53,0Z" transform="translate(58.67 8) rotate(90)" fill="#00cd69" opacity="0.15"/>
+    </g>
+    <path id="Sell_BTN" data-name="Sell BTN" d="M.357,5.231,5.231.357a1.218,1.218,0,0,1,2.08.861V4.874h8.548a1.218,1.218,0,0,1,0,2.437H7.311v3.655a1.218,1.218,0,0,1-2.08.861L.357,6.954A1.217,1.217,0,0,1,.357,5.231Zm0,0" transform="translate(29.287 13.329) rotate(90)" fill="#00cd69"/>
+    <text id="Sell" transform="translate(14.667 41.928)" fill="#00cd69" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Sell</tspan></text>
+  </g>
+</svg>

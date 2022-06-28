@@ -1,0 +1,34 @@
+.uploading{
+margin-top: 7rem;
+    input {
+       margin-top: 19px;
+           margin-left: 60px;
+    }
+    .upload-file-span{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        color: #ffffff;
+    }
+    p{
+        color: #ffffff;
+        font-weight: 700;
+    }
+    .playerProfilePic_home_tile {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        margin-bottom: 2rem;
+        margin-left: 12px;
+          border: 1px solid #1e2429;
+       
+    }
+    .register_profile_image {
+        background-color: #181a1d;
+    }
+    svg{
+        color: #ffffff;
+    }
+    .upload-avatar{
+        position: absolute;
+    }
+}

@@ -1,0 +1,57 @@
+.top-baner {
+    background-image: url("../../assets/image/banner.png");
+    background-repeat: no-repeat;
+    width: 99%;
+    height: 200px;
+    margin-top: 2rem;
+    // margin-bottom: 2rem;
+    border-radius: 8px;
+
+    .chanel-span {
+        color: #f8c02d;
+        font-size: 22px;
+        font-weight: 900;
+    }
+    .after-number {
+        font-size: 22px;
+        font-weight: 900;
+        color: #ffffff;
+    }
+    .number {
+        font-size: 27px;
+        font-weight: 900;
+        color: #ffffff;
+        padding: 5px;
+    }
+    .tittle {
+        font-size: 25px;
+        font-weight: 900;
+        color: #ffffff;
+        padding: 5px;
+    }
+    p {
+        font-weight: 900;
+        color: #ffffff;
+        font-size: 14px;
+    }
+}
+.banner-content {
+    margin-top: 35px;
+    button {
+        background: #f1bb2c;
+        color: #000000;
+        border: none;
+        border-radius: 7px;
+        width: 226px;
+        height: 40px;
+        font-weight: 900;
+    }
+}
+@media (min-width: 10px) and (max-width: 767px) {
+    .top-baner {
+        background-size: cover;
+        padding-bottom: 20px;
+        height: auto;
+        text-align: center;
+    }
+}

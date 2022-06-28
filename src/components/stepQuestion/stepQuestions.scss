@@ -1,0 +1,36 @@
+.step-questions h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 3rem;
+}
+.step-questions p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    color: #ffffff;
+    margin-top: 35px;
+}
+.step-questions button {
+    height: 56px;
+    width: 193px;
+    color: #000000;
+    border-radius: 8px;
+    background: #f1bb2c;
+    border: none;
+    font-weight: 900;
+}
+@media (min-width: 10px) and (max-width: 767px) {
+    .step-questions button {
+        margin-bottom: 15px;
+        height: 40px;
+    }
+    .step-questions {
+        text-align: center;
+    }
+}

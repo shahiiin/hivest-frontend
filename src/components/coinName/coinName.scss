@@ -1,0 +1,79 @@
+.coin-box {
+    width: 100%;
+    background-color: #1e2429;
+    height: auto;
+    .btc-avatar {
+        width: 56px;
+        height: 56px;
+        height: 56px;
+        padding: 12px;
+    }
+    h1 {
+        color: #ffff;
+        font-weight: 900;
+        font-size: 32px;
+        padding: 10px;
+        display: inline-block;
+        margin-top: 5px;
+        position: absolute;
+    }
+    h6 {
+        color: #ffff;
+        font-weight: 900;
+        font-size: 17px;
+        padding: 10px;
+    }
+    p {
+        color: #ffff;
+    }
+    span {
+        color: #ffff;
+        font-weight: 900;
+        font-size: 12px;
+        padding: 10px;
+    }
+    h5 {
+        color: #ffff;
+        font-weight: 900;
+        font-size: 13px;
+        margin-top: 3rem;
+    }
+    h4 {
+        color: #ffff;
+        font-weight: 900;
+        font-size: 10px;
+        margin-top: 0.6rem;
+    }
+}
+.coin-chart-box {
+    width: 100%;
+    background-color: #1e2429;
+    height: auto;
+    margin-top: 1.5rem;
+}
+.star {
+    position: absolute;
+    margin-left: 7.5rem;
+    margin-top: 1.5rem;
+}
+@media (min-width: 10px) and (max-width: 767px) {
+    .coin-chart-box {
+        text-align: center;
+    }
+    .coin-box h6 {
+        padding: 4px;
+        margin-right: 6rem;
+    }
+    .stimat-box {
+        text-align: center;
+    }
+    .health-box {
+        text-align: center;
+    }
+    .rank-box {
+        text-align: center;
+    }
+    .price-box {
+        text-align: center;
+    }
+}

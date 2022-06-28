@@ -1,0 +1,67 @@
+.coin-wallet h4 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.coin-wallet h6 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #f8c02d;
+}
+
+.coin-persent {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 9px !important;
+}
+.coin-param {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 7px !important;
+}
+.coin-wallet img {
+    width: 25px;
+    padding-top: 4px;
+}
+@media (min-width: 10px) and (max-width: 767px) {
+    .coin-wallet img {
+        display: block;
+    }
+    .coin-wallet {
+        margin-top: 0;
+    }
+    .coin-persent {
+        display: block;
+    }
+}
+@media (min-width: 10px) and (max-width: 428px) {
+    .coin-param {
+        margin-top: 13px !important;
+    }
+    .coin-persent {
+        margin-top: 13px !important;
+    }
+}

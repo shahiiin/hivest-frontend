@@ -1,0 +1,11 @@
+.send-message h1{
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+@media (min-width: 10px) and (max-width: 767px){
+ .send-message h1{
+     text-align: center;
+     margin: 0;
+ }
+}

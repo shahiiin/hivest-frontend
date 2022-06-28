@@ -1,0 +1,161 @@
+.dashboard-table-param {
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.table-dark td,
+th {
+    border: none;
+     color: #ffffff;
+}
+th,
+.table-dark thead th {
+    background-color: #181a1d;
+    border: none;
+   
+      font-weight: 900;
+}
+
+.table-dark td {
+    background-color: #1a2025;
+    border: none;
+   
+     font-weight: 900;
+}
+.pluse{
+color: #49DF3E !important;
+}
+.mainez{
+color: #BA1D1D  !important;
+}
+
+.table-btn button {
+    border-radius: 8px;
+    border: solid 1.3px #2a67c2;
+    background-color: #181a1d;
+    color: #2a67c2;
+    margin-bottom: 2rem;
+}
+
+.Dropdown-btn button {
+    background-color: #1e2429;
+    border: none;
+    color: #ffffff;
+    margin-top: 1.5rem;
+}
+
+.Dropdown-btn {
+    text-align: right;
+    font-family: Roboto;
+}
+
+.table-btn {
+    text-align: right;
+}
+
+.dashboard-table {
+    margin-top: 3.5rem;
+}
+
+.table-content {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    background-color: #1e2429;
+}
+
+.table-content h3 {
+    margin-top: 1.5rem;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+
+    font-weight: 900;
+}
+
+.table-content p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: 1.8rem;
+
+    font-weight: 900;
+}
+
+.table-content span {
+    font-family: Roboto;
+    font-size: 9px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    margin-left: 5px;
+    color: #ffffff;
+
+    font-weight: 900;
+}
+
+.bord-table {
+    border: solid 1px #181a1d;
+}
+
+.dashboard-table .table-dark.table-bordered {
+    border: 0;
+    text-align: center;
+}
+
+.dashboard-table img {
+    padding: 0px 10px 0 0;
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+    .table-content p {
+        margin-top: 0.7rem;
+    }
+    .table-content {
+        height: auto;
+    }
+    .table-dark {
+        width: 100%;
+        overflow-x: scroll;
+        display: table;
+    }
+}
+@media (min-width: 10px) and (max-width: 425px) {
+    .table-dark {
+        width: 100%;
+        overflow-x: scroll;
+        display: table;
+        font-size: 12px !important;
+        text-align: left;
+        th,
+        td {
+            padding: 15px 2px;
+        }
+    }
+    .dashboard-table img {
+        padding: 0px;
+        width: 15px;
+    }
+    .table-content h3{
+        font-size: 25px;
+    }
+}

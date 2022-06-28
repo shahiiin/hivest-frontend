@@ -1,0 +1,42 @@
+.coin-name {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.balance-change {
+    opacity: 0.7;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.box-persent-active {
+    color: green;
+}
+.box-persent-deActive {
+    color: red;
+}
+
+@media (min-width: 10px) and (max-width: 767px) {
+    .wallpaiper-box {
+        margin-bottom: 25px;
+        padding-bottom: 15px;
+        p {
+            text-align: center;
+        }
+        h4 {
+            text-align: center;
+        }
+    }
+}
